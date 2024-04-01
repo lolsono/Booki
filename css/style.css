@@ -545,6 +545,9 @@ footer li {
     }
 
     .searsh-box button {
+        box-shadow: 0px 3px 4px gray;
+        position: relative;
+        right: 12px;
         border: none;
         background-color: var(--main-color);
         height: 49px;
@@ -587,7 +590,6 @@ footer li {
 
     /*gestion inversion hebergement et populaire*/
     .hebergements-and-populaires {
-        flex-direction: column;
         flex-direction: column-reverse;
     }
     
