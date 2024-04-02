@@ -22,8 +22,10 @@
         <header>
             
             <h1>
-                <img src="images/logo/Booki.png" alt="logo bookie bleu">
+                <img src="images/logo/Booki.png" alt="bookie">
             </h1>
+
+            <!-- doit etre une liste comme footer -->
             <nav>
                 <a href="#Heberg-marseille" class="survole-nav header-nav">Hébergements</a>
                 <a href="#act-marseille" class="survole-nav">Activités</a>
@@ -40,13 +42,18 @@
                     <p>En plein centre-ville ou en pleine nature</p>
                 </div>
 
+                <!-- passer en formulaire -->
+
                 <!-- zone de recherche -->
-                <div class="searsh-box">
-                    <i class="searsh-location fa-solid fa-location-dot"></i>
-                    <input type="text" placeholder="Marseille, France">
-                    <button type="button"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass" id="logo-search"></i></button>
-                        
-                </div>
+                <!-- sémentique formulaire html -->
+                <!-- norme imposser par google sur les formulaire en ligne-->
+                <form class="searsh-box">
+                    <ul>
+                        <li><i class="searsh-location fa-solid fa-location-dot"></i></li>
+                        <li><input type="text" placeholder="Marseille, France"></li>
+                        <li><button type="submit"><span>Rechercher</span><i class="fa-solid fa-magnifying-glass" id="logo-search"></i></button></li>
+                    </ul>
+                </form>
 
                 <!-- filtre applicable -->
                 <div class="filtre">
@@ -351,25 +358,25 @@
             <div>
                 <ul>
                     <li><strong>À propos</strong></li>
-                    <li><a href="#"></a>Conditions générales</li>
-                    <li><a href="#"></a>Fonctionnement du site</li>
-                    <li><a href="#"></a>Données et confidentialité</li>
+                    <li><a href="#">Conditions générales</a></li>
+                    <li><a href="#">Fonctionnement du site</a></li>
+                    <li><a href="#">Données et confidentialité</a></li>
                 </ul>
             </div>
 
             <div>
                 <ul>
                     <li><strong>Nos hébergements</strong></li>
-                    <li><a href="#"></a>Charte qualité</li>
-                    <li><a href="#"></a>Proposer votre hôtel</li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Proposer votre hôtel</a></li>
                 </ul>
             </div>
 
             <div>
                 <ul>
                     <li><strong>Assistance</strong></li>
-                    <li><a href="#"></a>Centre d’aide</li>
-                    <li><a href="#"></a>Nous contacter</li>
+                    <li><a href="#">Centre d’aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
                 </ul>
             </div>
 
